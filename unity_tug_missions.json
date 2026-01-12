@@ -1,0 +1,386 @@
+{
+    "simulation_meta": {
+        "duration_mins": 4320,
+        "total_jobs": 42
+    },
+    "mission_log": [
+        {
+            "job_id": "JOB_1_I",
+            "vessel_ref": 1,
+            "arrival_tick": 122,
+            "required_tugs": 4,
+            "est_duration": 138,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_3"
+        },
+        {
+            "job_id": "JOB_2_I",
+            "vessel_ref": 2,
+            "arrival_tick": 389,
+            "required_tugs": 4,
+            "est_duration": 105,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_2"
+        },
+        {
+            "job_id": "JOB_3_O",
+            "vessel_ref": 3,
+            "arrival_tick": 392,
+            "required_tugs": 4,
+            "est_duration": 118,
+            "start_node": "Berth_4",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_4_O",
+            "vessel_ref": 4,
+            "arrival_tick": 637,
+            "required_tugs": 1,
+            "est_duration": 40,
+            "start_node": "Berth_5",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_5_I",
+            "vessel_ref": 5,
+            "arrival_tick": 649,
+            "required_tugs": 1,
+            "est_duration": 79,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_8"
+        },
+        {
+            "job_id": "JOB_6_I",
+            "vessel_ref": 6,
+            "arrival_tick": 706,
+            "required_tugs": 1,
+            "est_duration": 30,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_2"
+        },
+        {
+            "job_id": "JOB_7_O",
+            "vessel_ref": 7,
+            "arrival_tick": 747,
+            "required_tugs": 4,
+            "est_duration": 112,
+            "start_node": "Berth_5",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_8_I",
+            "vessel_ref": 8,
+            "arrival_tick": 768,
+            "required_tugs": 2,
+            "est_duration": 76,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_3"
+        },
+        {
+            "job_id": "JOB_9_I",
+            "vessel_ref": 9,
+            "arrival_tick": 843,
+            "required_tugs": 2,
+            "est_duration": 68,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_6"
+        },
+        {
+            "job_id": "JOB_10_I",
+            "vessel_ref": 10,
+            "arrival_tick": 871,
+            "required_tugs": 1,
+            "est_duration": 30,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_8"
+        },
+        {
+            "job_id": "JOB_11_O",
+            "vessel_ref": 11,
+            "arrival_tick": 945,
+            "required_tugs": 2,
+            "est_duration": 92,
+            "start_node": "Berth_7",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_12_I",
+            "vessel_ref": 12,
+            "arrival_tick": 974,
+            "required_tugs": 1,
+            "est_duration": 55,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_1"
+        },
+        {
+            "job_id": "JOB_13_O",
+            "vessel_ref": 13,
+            "arrival_tick": 995,
+            "required_tugs": 1,
+            "est_duration": 49,
+            "start_node": "Berth_7",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_14_O",
+            "vessel_ref": 14,
+            "arrival_tick": 1030,
+            "required_tugs": 1,
+            "est_duration": 30,
+            "start_node": "Berth_6",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_15_I",
+            "vessel_ref": 15,
+            "arrival_tick": 1103,
+            "required_tugs": 1,
+            "est_duration": 58,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_2"
+        },
+        {
+            "job_id": "JOB_16_I",
+            "vessel_ref": 16,
+            "arrival_tick": 1225,
+            "required_tugs": 1,
+            "est_duration": 49,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_1"
+        },
+        {
+            "job_id": "JOB_17_I",
+            "vessel_ref": 17,
+            "arrival_tick": 1239,
+            "required_tugs": 2,
+            "est_duration": 54,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_4"
+        },
+        {
+            "job_id": "JOB_18_I",
+            "vessel_ref": 18,
+            "arrival_tick": 1248,
+            "required_tugs": 1,
+            "est_duration": 46,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_8"
+        },
+        {
+            "job_id": "JOB_19_O",
+            "vessel_ref": 19,
+            "arrival_tick": 1648,
+            "required_tugs": 1,
+            "est_duration": 41,
+            "start_node": "Berth_7",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_20_I",
+            "vessel_ref": 20,
+            "arrival_tick": 1663,
+            "required_tugs": 2,
+            "est_duration": 56,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_4"
+        },
+        {
+            "job_id": "JOB_21_I",
+            "vessel_ref": 21,
+            "arrival_tick": 1750,
+            "required_tugs": 2,
+            "est_duration": 62,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_8"
+        },
+        {
+            "job_id": "JOB_22_O",
+            "vessel_ref": 22,
+            "arrival_tick": 1813,
+            "required_tugs": 4,
+            "est_duration": 103,
+            "start_node": "Berth_7",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_23_I",
+            "vessel_ref": 23,
+            "arrival_tick": 1819,
+            "required_tugs": 1,
+            "est_duration": 74,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_7"
+        },
+        {
+            "job_id": "JOB_24_I",
+            "vessel_ref": 24,
+            "arrival_tick": 1833,
+            "required_tugs": 4,
+            "est_duration": 104,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_7"
+        },
+        {
+            "job_id": "JOB_25_I",
+            "vessel_ref": 25,
+            "arrival_tick": 2082,
+            "required_tugs": 4,
+            "est_duration": 130,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_1"
+        },
+        {
+            "job_id": "JOB_26_I",
+            "vessel_ref": 26,
+            "arrival_tick": 2162,
+            "required_tugs": 2,
+            "est_duration": 53,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_7"
+        },
+        {
+            "job_id": "JOB_27_O",
+            "vessel_ref": 27,
+            "arrival_tick": 2475,
+            "required_tugs": 1,
+            "est_duration": 34,
+            "start_node": "Berth_3",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_28_I",
+            "vessel_ref": 28,
+            "arrival_tick": 2483,
+            "required_tugs": 1,
+            "est_duration": 49,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_1"
+        },
+        {
+            "job_id": "JOB_29_I",
+            "vessel_ref": 29,
+            "arrival_tick": 2712,
+            "required_tugs": 4,
+            "est_duration": 127,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_2"
+        },
+        {
+            "job_id": "JOB_30_I",
+            "vessel_ref": 30,
+            "arrival_tick": 2745,
+            "required_tugs": 4,
+            "est_duration": 115,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_2"
+        },
+        {
+            "job_id": "JOB_31_I",
+            "vessel_ref": 31,
+            "arrival_tick": 2833,
+            "required_tugs": 1,
+            "est_duration": 36,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_5"
+        },
+        {
+            "job_id": "JOB_32_O",
+            "vessel_ref": 32,
+            "arrival_tick": 2876,
+            "required_tugs": 2,
+            "est_duration": 61,
+            "start_node": "Berth_2",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_33_O",
+            "vessel_ref": 33,
+            "arrival_tick": 2913,
+            "required_tugs": 1,
+            "est_duration": 58,
+            "start_node": "Berth_5",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_34_O",
+            "vessel_ref": 34,
+            "arrival_tick": 3437,
+            "required_tugs": 1,
+            "est_duration": 46,
+            "start_node": "Berth_2",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_35_O",
+            "vessel_ref": 35,
+            "arrival_tick": 3548,
+            "required_tugs": 1,
+            "est_duration": 30,
+            "start_node": "Berth_5",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_36_O",
+            "vessel_ref": 36,
+            "arrival_tick": 3587,
+            "required_tugs": 4,
+            "est_duration": 133,
+            "start_node": "Berth_3",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_37_I",
+            "vessel_ref": 37,
+            "arrival_tick": 3654,
+            "required_tugs": 4,
+            "est_duration": 140,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_1"
+        },
+        {
+            "job_id": "JOB_38_I",
+            "vessel_ref": 38,
+            "arrival_tick": 3673,
+            "required_tugs": 4,
+            "est_duration": 110,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_6"
+        },
+        {
+            "job_id": "JOB_39_I",
+            "vessel_ref": 39,
+            "arrival_tick": 3686,
+            "required_tugs": 1,
+            "est_duration": 54,
+            "start_node": "Anchorage_North",
+            "end_node": "Berth_3"
+        },
+        {
+            "job_id": "JOB_40_O",
+            "vessel_ref": 40,
+            "arrival_tick": 4007,
+            "required_tugs": 1,
+            "est_duration": 53,
+            "start_node": "Berth_3",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_41_O",
+            "vessel_ref": 41,
+            "arrival_tick": 4253,
+            "required_tugs": 1,
+            "est_duration": 30,
+            "start_node": "Berth_6",
+            "end_node": "Open_Sea"
+        },
+        {
+            "job_id": "JOB_42_O",
+            "vessel_ref": 42,
+            "arrival_tick": 4284,
+            "required_tugs": 4,
+            "est_duration": 104,
+            "start_node": "Berth_5",
+            "end_node": "Open_Sea"
+        }
+    ]
+}
