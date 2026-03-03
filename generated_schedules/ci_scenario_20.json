@@ -1,0 +1,616 @@
+{
+    "jobs": [
+        {
+            "jobId": "JOB_002",
+            "vesselImo": "9705081",
+            "vesselType": "CS",
+            "length": 320.0,
+            "grossTonnage": 96704,
+            "eta": 4306.88,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Berthing_PPT Berth 1_9827968_202306301553_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 4306.88,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_001",
+            "vesselImo": "9144316",
+            "vesselType": "CS",
+            "length": 201.0,
+            "grossTonnage": 24002,
+            "eta": 5873.1,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 9_9597472_202306070412_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 5873.1,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_003",
+            "vesselImo": "9525895",
+            "vesselType": "CS",
+            "length": 363.0,
+            "grossTonnage": 141077,
+            "eta": 11913.55,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 9_9409170_202306180215_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 11913.55,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_004",
+            "vesselImo": "9866469",
+            "vesselType": "CS",
+            "length": 190.0,
+            "grossTonnage": 20441,
+            "eta": 16192.63,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 8_9172301_202306201913_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 16192.63,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_006",
+            "vesselImo": "9365673",
+            "vesselType": "CS",
+            "length": 149.0,
+            "grossTonnage": 9917,
+            "eta": 19111.36,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9409170_202306190025_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 19111.36,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_005",
+            "vesselImo": "9486075",
+            "vesselType": "CS",
+            "length": 314.0,
+            "grossTonnage": 91563,
+            "eta": 19589.6,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 9_9409170_202306180215_WITH_2_TUGS.csv",
+            "tugImos": [
+                "3",
+                "4",
+                "7",
+                "8"
+            ],
+            "predictedStartTime": 19709.6,
+            "predictedWait": 120.0
+        },
+        {
+            "jobId": "JOB_010",
+            "vesselImo": "9757840",
+            "vesselType": "CS",
+            "length": 374.0,
+            "grossTonnage": 154300,
+            "eta": 22171.27,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Berthing_PPT Berth 3_9334674_202306120819_WITH_2_TUGS.csv",
+            "tugImos": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "predictedStartTime": 22171.27,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_009",
+            "vesselImo": "9352418",
+            "vesselType": "CS",
+            "length": 238.0,
+            "grossTonnage": 39906,
+            "eta": 24046.96,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 9_9674555_202306011232_WITH_2_TUGS.csv",
+            "tugImos": [
+                "13",
+                "14"
+            ],
+            "predictedStartTime": 24046.96,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_008",
+            "vesselImo": "9467043",
+            "vesselType": "CS",
+            "length": 253.0,
+            "grossTonnage": 47855,
+            "eta": 24502.26,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 3_9334674_202306120819_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 25102.26,
+            "predictedWait": 600.0
+        },
+        {
+            "jobId": "JOB_007",
+            "vesselImo": "9046423",
+            "vesselType": "CS",
+            "length": 155.0,
+            "grossTonnage": 11086,
+            "eta": 24680.94,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9627916_202306292331_WITH_2_TUGS.csv",
+            "tugImos": [
+                "15",
+                "3"
+            ],
+            "predictedStartTime": 26225.29022675004,
+            "predictedWait": 1544.3502267500407
+        },
+        {
+            "jobId": "JOB_011",
+            "vesselImo": "9795660",
+            "vesselType": "CS",
+            "length": 418.0,
+            "grossTonnage": 215553,
+            "eta": 24792.83,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9129873_202306221152_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2",
+                "4",
+                "7"
+            ],
+            "predictedStartTime": 27398.918044753318,
+            "predictedWait": 2606.0880447533164
+        },
+        {
+            "jobId": "JOB_012",
+            "vesselImo": "8420907",
+            "vesselType": "CS",
+            "length": 220.0,
+            "grossTonnage": 31430,
+            "eta": 25457.07,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9155391_202306081332_WITH_2_TUGS.csv",
+            "tugImos": [
+                "8",
+                "9"
+            ],
+            "predictedStartTime": 29756.216739854703,
+            "predictedWait": 4299.146739854703
+        },
+        {
+            "jobId": "JOB_013",
+            "vesselImo": "9872389",
+            "vesselType": "CS",
+            "length": 214.0,
+            "grossTonnage": 29116,
+            "eta": 34822.06,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 3_9334674_202306120819_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 34822.06,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_014",
+            "vesselImo": "9523043",
+            "vesselType": "CS",
+            "length": 253.0,
+            "grossTonnage": 47917,
+            "eta": 39415.9,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 8_9477907_202306230331_WITH_2_TUGS.csv",
+            "tugImos": [
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 39415.9,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_015",
+            "vesselImo": "9523043",
+            "vesselType": "CS",
+            "length": 253.0,
+            "grossTonnage": 47917,
+            "eta": 40950.78,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 3_9105968_202306161602_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 40950.78,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_016",
+            "vesselImo": "9085596",
+            "vesselType": "CS",
+            "length": 138.0,
+            "grossTonnage": 7869,
+            "eta": 42888.66,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 10_9925825_202306140212_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 42888.66,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_017",
+            "vesselImo": "9516765",
+            "vesselType": "CS",
+            "length": 184.0,
+            "grossTonnage": 18358,
+            "eta": 43609.15,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 8_9309930_202306060455_WITH_2_TUGS.csv",
+            "tugImos": [
+                "7",
+                "8"
+            ],
+            "predictedStartTime": 44209.15,
+            "predictedWait": 600.0
+        },
+        {
+            "jobId": "JOB_020",
+            "vesselImo": "9634658",
+            "vesselType": "CS",
+            "length": 178.0,
+            "grossTonnage": 16889,
+            "eta": 45317.22,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 10_9925825_202306140212_WITH_2_TUGS.csv",
+            "tugImos": [
+                "9",
+                "10"
+            ],
+            "predictedStartTime": 46277.22,
+            "predictedWait": 960.0
+        },
+        {
+            "jobId": "JOB_019",
+            "vesselImo": "9405033",
+            "vesselType": "CS",
+            "length": 230.0,
+            "grossTonnage": 36007,
+            "eta": 45622.96,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 9_9674555_202306011232_WITH_2_TUGS.csv",
+            "tugImos": [
+                "11",
+                "12"
+            ],
+            "predictedStartTime": 45682.96,
+            "predictedWait": 60.0
+        },
+        {
+            "jobId": "JOB_018",
+            "vesselImo": "9817353",
+            "vesselType": "CS",
+            "length": 227.0,
+            "grossTonnage": 34529,
+            "eta": 46465.87,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 8_9309930_202306060455_WITH_2_TUGS.csv",
+            "tugImos": [
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 47605.87,
+            "predictedWait": 1140.0
+        },
+        {
+            "jobId": "JOB_021",
+            "vesselImo": "9708435",
+            "vesselType": "CS",
+            "length": 366.0,
+            "grossTonnage": 145136,
+            "eta": 48246.44,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202305111153_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6",
+                "13",
+                "14"
+            ],
+            "predictedStartTime": 48246.44,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_022",
+            "vesselImo": "9866469",
+            "vesselType": "CS",
+            "length": 190.0,
+            "grossTonnage": 20441,
+            "eta": 50865.45,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9155391_202306081332_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 50865.45,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_023",
+            "vesselImo": "9371098",
+            "vesselType": "CS",
+            "length": 162.0,
+            "grossTonnage": 12559,
+            "eta": 54085.66,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 3_9334674_202306120819_WITH_2_TUGS.csv",
+            "tugImos": [
+                "7",
+                "8"
+            ],
+            "predictedStartTime": 54085.66,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_024",
+            "vesselImo": "9450600",
+            "vesselType": "CS",
+            "length": 313.0,
+            "grossTonnage": 90931,
+            "eta": 55312.44,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 5_9484443_202306102006_WITH_2_TUGS.csv",
+            "tugImos": [
+                "3",
+                "4",
+                "9",
+                "10"
+            ],
+            "predictedStartTime": 57052.44,
+            "predictedWait": 1740.0
+        },
+        {
+            "jobId": "JOB_025",
+            "vesselImo": "9232400",
+            "vesselType": "CS",
+            "length": 205.0,
+            "grossTonnage": 25371,
+            "eta": 56908.16,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 1_9827968_202306301553_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 56908.16,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_026",
+            "vesselImo": "9333826",
+            "vesselType": "CS",
+            "length": 263.0,
+            "grossTonnage": 54098,
+            "eta": 58139.83,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9252993_202306141809_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 58139.83,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_027",
+            "vesselImo": "9486116",
+            "vesselType": "CS",
+            "length": 250.0,
+            "grossTonnage": 46444,
+            "eta": 58321.76,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 10_9894997_202307260122_WITH_2_TUGS.csv",
+            "tugImos": [
+                "11",
+                "12"
+            ],
+            "predictedStartTime": 59881.76,
+            "predictedWait": 1560.0
+        },
+        {
+            "jobId": "JOB_028",
+            "vesselImo": "9806067",
+            "vesselType": "CS",
+            "length": 367.0,
+            "grossTonnage": 146694,
+            "eta": 65501.53,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202305111153_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 65501.53,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_029",
+            "vesselImo": "9730854",
+            "vesselType": "CS",
+            "length": 179.0,
+            "grossTonnage": 17119,
+            "eta": 67179.22,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 10_9925825_202306140212_WITH_2_TUGS.csv",
+            "tugImos": [
+                "5",
+                "6"
+            ],
+            "predictedStartTime": 67179.22,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_030",
+            "vesselImo": "8952857",
+            "vesselType": "CS",
+            "length": 76.0,
+            "grossTonnage": 1479,
+            "eta": 67817.42,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202306021529_WITH_2_TUGS.csv",
+            "tugImos": [
+                "7",
+                "8"
+            ],
+            "predictedStartTime": 67817.42,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_032",
+            "vesselImo": "9364992",
+            "vesselType": "CS",
+            "length": 335.0,
+            "grossTonnage": 111249,
+            "eta": 67853.86,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Unberthing_PPT Berth 9_9409170_202306180215_WITH_2_TUGS.csv",
+            "tugImos": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "predictedStartTime": 67853.86,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_031",
+            "vesselImo": "9859935",
+            "vesselType": "CS",
+            "length": 182.0,
+            "grossTonnage": 17933,
+            "eta": 68171.77,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 8_9055450_202306201752_WITH_2_TUGS.csv",
+            "tugImos": [
+                "13",
+                "14"
+            ],
+            "predictedStartTime": 68171.77,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_033",
+            "vesselImo": "9694529",
+            "vesselType": "CS",
+            "length": 260.0,
+            "grossTonnage": 51872,
+            "eta": 70923.6,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9252993_202306141809_WITH_2_TUGS.csv",
+            "tugImos": [
+                "15",
+                "5"
+            ],
+            "predictedStartTime": 74961.68485948298,
+            "predictedWait": 4038.084859482973
+        },
+        {
+            "jobId": "JOB_034",
+            "vesselImo": "9354648",
+            "vesselType": "CS",
+            "length": 183.0,
+            "grossTonnage": 18199,
+            "eta": 77991.68,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9627916_202306292331_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 77991.68,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_035",
+            "vesselImo": "9085596",
+            "vesselType": "CS",
+            "length": 138.0,
+            "grossTonnage": 7869,
+            "eta": 78266.86,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Berthing_PPT Berth 8_9172301_202306201913_WITH_2_TUGS.csv",
+            "tugImos": [
+                "3",
+                "4"
+            ],
+            "predictedStartTime": 78266.86,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_036",
+            "vesselImo": "9674531",
+            "vesselType": "CS",
+            "length": 319.0,
+            "grossTonnage": 96253,
+            "eta": 80817.76,
+            "tugsRequired": 4,
+            "TrajectoryFile": "Berthing_PPT Berth 5_9244881_202306162352_WITH_2_TUGS.csv",
+            "tugImos": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "predictedStartTime": 80817.76,
+            "predictedWait": 0.0
+        },
+        {
+            "jobId": "JOB_037",
+            "vesselImo": "9405033",
+            "vesselType": "CS",
+            "length": 230.0,
+            "grossTonnage": 36007,
+            "eta": 83950.47,
+            "tugsRequired": 2,
+            "TrajectoryFile": "Unberthing_PPT Berth 8_9477907_202306230331_WITH_2_TUGS.csv",
+            "tugImos": [
+                "1",
+                "2"
+            ],
+            "predictedStartTime": 84070.47,
+            "predictedWait": 120.0
+        }
+    ]
+}

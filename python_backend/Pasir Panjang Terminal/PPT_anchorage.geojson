@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "PPT_anchorage",
-"features": [
-{ "type": "Feature", "properties": { "PortName": "Pasir Panjang Terminal", "POIName": "PPT Anchorage", "Type": "Anchorage", "Country": "Singapore", "Level": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 103.8260311, 1.2374926 ], [ 103.8029037, 1.2598197 ], [ 103.7798557, 1.239874 ], [ 103.800161, 1.2151322 ], [ 103.8236102, 1.204992 ], [ 103.8345842, 1.2164116 ], [ 103.8260311, 1.2374926 ] ] ] } }
-]
-}
