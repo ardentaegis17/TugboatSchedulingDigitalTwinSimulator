@@ -1,12 +1,12 @@
-# 🚀 Installation & Setup
+## 🚀 Installation & Setup
 
 This project uses a Git Submodule to link the Python optimization engine with the Unity 3D Digital Twin. To ensure you download all the necessary files, **you must use the `--recurse-submodules` flag** when cloning this repository.
 
-## Step 1: Clone the Repository
+### Step 1: Clone the Repository
 Open your terminal and run the following command:
 
 ```bash
-git clone --recurse-submodules [https://github.com/ardentaegis17/TugboatSchedulingDigitalTwinSimulator.git] (https://github.com/ardentaegis17/TugboatSchedulingDigitalTwinSimulator.git)
+git clone --recurse-submodules https://github.com/sg-t1aidan/TugboatSchedulingDigitalTwinSimulator.git
 
 ## Step 2: Set Up the Python Environment
 Navigate into the root directory of the project and install the required routing and optimisation packages:
