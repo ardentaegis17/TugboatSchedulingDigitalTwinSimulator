@@ -8,13 +8,15 @@ Open your terminal and run the following command:
 
 ```bash
 git clone --recurse-submodules https://github.com/sg-t1aidan/TugboatSchedulingDigitalTwinSimulator.git
+```
 
 ## Step 2: Set Up the Python Environment
 Navigate into the root directory of the project and install the required routing and optimisation packages:
 
-cd TugboatSchedulingDigitalTwinSimulator
 ```bash
+cd TugboatSchedulingDigitalTwinSimulator
 pip install -r requirements.txt
+```
 
 ## Step 3: Running the Project
 1. Optimisation: Run python optimisation/batch_optimise.py to generate the dispatch schedules. The output will be saved in the generated_schedules/ folder.
