@@ -10,13 +10,13 @@ df = pd.read_csv('results/Vessel_Normalized_Results.csv')
 summary = df.groupby('Strategy').agg({
     'AvgWait_Hrs': ['mean', 'std'],
     'SafetyScore': ['mean', 'std'],
-    'NearMisses': ['mean', 'std']
+    'NearMisses': ['mean', 'std'],
 }).round(2)
 print("Summary Statistics:\n", summary)
 
 # 3. Visualisation: Wait Time and Safety
 plt.style.use('seaborn-v0_8-whitegrid')
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 6))
 
 # Plot A: Average Wait Time
 sns.boxplot(x='Strategy', y='AvgWait_Hrs', data=df, ax=ax1, palette='viridis')
@@ -28,8 +28,14 @@ sns.boxplot(x='Strategy', y='SafetyScore', data=df, ax=ax2, palette='viridis')
 ax2.set_title('Operational Safety Score by Strategy')
 ax2.set_ylabel('Safety Score (%)')
 
+# Plot C: Near Misses
+sns.boxplot(x='Strategy', y='NearMisses', data=df, ax=ax3, palette='viridis')
+ax3.set_title('Count of Near Misses by Strategy')
+ax3.set_ylabel('Near Misses')
+
+
 plt.tight_layout()
-plt.savefig('experiment_results_visualisation.png')
+plt.savefig('docs/experiment_results_visualisation.png')
 
 
 # Plot C: Average Wait Time Histograms
@@ -48,7 +54,7 @@ for i, strategy in enumerate(strategies):
     axes[i].set_ylabel('Frequency', fontsize=12)
 
 plt.tight_layout()
-plt.savefig('wait_time_histograms.png', dpi=300)
+plt.savefig('docs/wait_time_histograms.png', dpi=300)
 print("Histograms generated and saved.")
 
 # 4. Hypothesis Testing
@@ -67,7 +73,7 @@ comparisons = [
     ('Greedy', 'TabuSearch')
 ]
 
-metrics = ['AvgWait_Hrs', 'SafetyScore']
+metrics = ['AvgWait_Hrs', 'SafetyScore', 'NearMisses']
 
 results = []
 

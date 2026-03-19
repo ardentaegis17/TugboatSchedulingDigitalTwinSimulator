@@ -9,14 +9,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Berthing_PPT Berth 1_9299317_202306270128_WITH_2_TUGS.csv",
         "tugImos": [
-            "14",
-            "8"
+            "8",
+            "14"
         ],
         "predictedStartTime": 4466.12,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "14",
-            "8"
+            "8",
+            "14"
         ]
     },
     {
@@ -29,14 +29,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Berthing_PPT Berth 5_9244881_202306162352_WITH_2_TUGS.csv",
         "tugImos": [
-            "12",
-            "1"
+            "4",
+            "10"
         ],
         "predictedStartTime": 11324.28,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "12",
-            "1"
+            "4",
+            "10"
         ]
     },
     {
@@ -50,13 +50,13 @@
         "TrajectoryFile": "Unberthing_PPT Berth 6_9806079_202307060907_WITH_2_TUGS.csv",
         "tugImos": [
             "1",
-            "11"
+            "2"
         ],
         "predictedStartTime": 22254.86,
         "predictedWait": 0.0,
         "assignedTugs": [
             "1",
-            "11"
+            "2"
         ]
     },
     {
@@ -89,14 +89,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Berthing_PPT Berth 8_9172301_202306201913_WITH_2_TUGS.csv",
         "tugImos": [
-            "12",
-            "9"
+            "5",
+            "6"
         ],
         "predictedStartTime": 26381.12,
         "predictedWait": 720.0,
         "assignedTugs": [
-            "12",
-            "9"
+            "5",
+            "6"
         ]
     },
     {
@@ -109,14 +109,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Berthing_PPT Berth 5_9627916_202306292331_WITH_2_TUGS.csv",
         "tugImos": [
-            "6",
-            "5"
+            "7",
+            "8"
         ],
         "predictedStartTime": 25973.27,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "6",
-            "5"
+            "7",
+            "8"
         ]
     },
     {
@@ -129,14 +129,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Berthing_PPT Berth 3_9155391_202306160453_WITH_2_TUGS.csv",
         "tugImos": [
-            "15",
-            "7"
+            "9",
+            "14"
         ],
         "predictedStartTime": 28747.22,
         "predictedWait": 2520.0,
         "assignedTugs": [
-            "15",
-            "7"
+            "9",
+            "14"
         ]
     },
     {
@@ -149,14 +149,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Unberthing_PPT Berth 3_9409170_202306190025_WITH_2_TUGS.csv",
         "tugImos": [
-            "2",
-            "15"
+            "15",
+            "14"
         ],
         "predictedStartTime": 34163.22231911334,
         "predictedWait": 1579.7123191133396,
         "assignedTugs": [
-            "2",
-            "15"
+            "15",
+            "14"
         ]
     },
     {
@@ -169,14 +169,14 @@
         "tugsRequired": 2,
         "TrajectoryFile": "Unberthing_PPT Berth 5_9484443_202306102006_WITH_2_TUGS.csv",
         "tugImos": [
-            "4",
-            "14"
+            "3",
+            "4"
         ],
         "predictedStartTime": 33308.43,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "4",
-            "14"
+            "3",
+            "4"
         ]
     },
     {
@@ -209,18 +209,18 @@
         "tugsRequired": 4,
         "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202306021529_WITH_2_TUGS.csv",
         "tugImos": [
-            "7",
             "8",
             "9",
-            "10"
+            "10",
+            "2"
         ],
         "predictedStartTime": 40142.02,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "7",
             "8",
             "9",
-            "10"
+            "10",
+            "2"
         ]
     },
     {
@@ -234,13 +234,13 @@
         "TrajectoryFile": "Berthing_PPT Berth 3_9105968_202306161602_WITH_2_TUGS.csv",
         "tugImos": [
             "1",
-            "13"
+            "14"
         ],
         "predictedStartTime": 41146.34,
         "predictedWait": 0.0,
         "assignedTugs": [
             "1",
-            "13"
+            "14"
         ]
     },
     {
@@ -533,18 +533,18 @@
         "tugsRequired": 4,
         "TrajectoryFile": "Berthing_PPT Berth 3_9155391_202306160453_WITH_2_TUGS.csv",
         "tugImos": [
-            "8",
             "9",
             "11",
-            "12"
+            "12",
+            "4"
         ],
         "predictedStartTime": 66340.3359743623,
         "predictedWait": 884.8659743622993,
         "assignedTugs": [
-            "8",
             "9",
             "11",
-            "12"
+            "12",
+            "4"
         ]
     },
     {
@@ -557,18 +557,18 @@
         "tugsRequired": 4,
         "TrajectoryFile": "Berthing_PPT Berth 9_9674555_202306011232_WITH_2_TUGS.csv",
         "tugImos": [
-            "13",
             "14",
             "15",
-            "3"
+            "3",
+            "8"
         ],
         "predictedStartTime": 66909.85,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "13",
             "14",
             "15",
-            "3"
+            "3",
+            "8"
         ]
     },
     {
@@ -601,18 +601,18 @@
         "tugsRequired": 4,
         "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202306021529_WITH_2_TUGS.csv",
         "tugImos": [
-            "3",
             "5",
             "6",
-            "13"
+            "13",
+            "11"
         ],
         "predictedStartTime": 77748.66,
         "predictedWait": 0.0,
         "assignedTugs": [
-            "3",
             "5",
             "6",
-            "13"
+            "13",
+            "11"
         ]
     },
     {
@@ -645,18 +645,18 @@
         "tugsRequired": 4,
         "TrajectoryFile": "Unberthing_PPT Berth 3_9105968_202305111153_WITH_2_TUGS.csv",
         "tugImos": [
+            "7",
             "8",
             "9",
-            "10",
-            "15"
+            "4"
         ],
         "predictedStartTime": 83570.64,
         "predictedWait": 0.0,
         "assignedTugs": [
+            "7",
             "8",
             "9",
-            "10",
-            "15"
+            "4"
         ]
     }
 ]
