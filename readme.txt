@@ -5,14 +5,12 @@ This project uses a Git Submodule to link the Python optimization engine with th
 ### Step 1: Clone the Repository
 Open your terminal and run the following command:
 
-```bash
 git clone --recurse-submodules https://github.com/sg-t1aidan/TugboatSchedulingDigitalTwinSimulator.git
 
 ## Step 2: Set Up the Python Environment
 Navigate into the root directory of the project and install the required routing and optimisation packages:
 
 cd TugboatSchedulingDigitalTwinSimulator
-```bash
 pip install -r requirements.txt
 
 ## Step 3: Running the Project
