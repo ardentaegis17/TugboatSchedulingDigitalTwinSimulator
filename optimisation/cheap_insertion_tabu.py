@@ -197,7 +197,10 @@ def evaluate_schedule(jobs, assignment_map):
         while not check_trajectory_safety(job, safe_start, schedule_result):
             safe_start += 60 # Push 1 min
             attempts += 1
-            if attempts > 1440: break 
+            if attempts > 1440:
+                # penalise solution heavily
+                safe_start += 100000
+                break 
             
         # D. Commit & Update State
         finish_time = safe_start + duration
