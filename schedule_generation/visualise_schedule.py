@@ -5,7 +5,7 @@ import datetime
 import os
 
 # Configuration
-INPUT_FILE = "generated_schedules/tabu_scenario_5.json"
+INPUT_FILE = "generated_schedules/tabu_scenario_4.json"
 
 class CompactScheduleViewer(tk.Tk):
     def __init__(self):

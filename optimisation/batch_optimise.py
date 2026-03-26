@@ -4,7 +4,7 @@ import time
 import sys
 
 # ================= CONFIGURATION =================
-NUM_SCENARIOS = 31
+NUM_SCENARIOS = 5
 INPUT_DIR = "generated_schedules"    # Where your base scenarios live
 OUTPUT_DIR = "generated_schedules"   # We'll save the optimised ones here too
 # =================================================

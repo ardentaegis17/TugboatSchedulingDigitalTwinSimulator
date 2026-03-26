@@ -6,6 +6,7 @@ import sys
 # Force the script to look inside the virtual environment for packages
 current_dir = os.path.dirname(__file__)
 root_dir = os.path.dirname(current_dir)
+print(os.path.join(root_dir, '.venv', 'Lib', 'site-packages'))
 sys.path.insert(0, os.path.join(root_dir, '.venv', 'Lib', 'site-packages'))
 
 # ================= CONFIGURATION =================
