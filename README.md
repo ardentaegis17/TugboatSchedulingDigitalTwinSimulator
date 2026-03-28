@@ -12,7 +12,7 @@ TugboatSchedulingDigitalTwinSimulator/
 │
 ├── .gitmodules                         # Git configuration tracking the Unity submodule
 │
-├── data_preparation/                   # Scripts for cleaning and formatting raw input data
+├── data_preparation/                   # Scripts for exploring, cleaning and transforming raw input data
 │
 ├── docs/                               # Project documentation, architecture images, and demo video
 │
