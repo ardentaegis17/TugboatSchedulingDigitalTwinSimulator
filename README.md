@@ -38,7 +38,7 @@ TugboatSchedulingDigitalTwinSimulator/
 │
 ├── README.md                           # Setup and cloning instructions
 └── requirements.txt                    # Python environment dependencies
-```bash
+```
 
 ## 🚀 Installation & Setup
 
