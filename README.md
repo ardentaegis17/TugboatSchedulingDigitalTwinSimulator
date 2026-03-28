@@ -51,7 +51,7 @@ Open your terminal and run the following command:
 git clone --recurse-submodules https://github.com/sg-t1aidan/TugboatSchedulingDigitalTwinSimulator.git
 ```
 
-## Step 2: Set Up the Python Environment
+### Step 2: Set Up the Python Environment
 Navigate into the root directory of the project. Create and activate a virtual environment:
 
 ``` bash
@@ -66,6 +66,6 @@ cd TugboatSchedulingDigitalTwinSimulator
 pip install -r requirements.txt
 ```
 
-## Step 3: Running the Project
+### Step 3: Running the Project
 1. Optimisation: Run python optimisation/batch_optimise.py to generate the dispatch schedules. The output will be saved in the generated_schedules/ folder.
 2. Simulation: Open the simulation folder (which contains the TugSP-Unity project) using Unity Hub (Version 2022.3+ recommended). Press "Play" in the editor to load the schedules and watch the digital twin execute the routes.
