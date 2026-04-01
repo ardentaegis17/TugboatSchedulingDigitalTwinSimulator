@@ -55,6 +55,7 @@ git clone --recurse-submodules https://github.com/sg-t1aidan/TugboatSchedulingDi
 Navigate into the root directory of the project. Create and activate a virtual environment:
 
 ``` bash
+cd TugboatSchedulingDigitalTwinSimulator
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
@@ -62,10 +63,10 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 install the required routing and optimisation packages:
 
 ```bash
-cd TugboatSchedulingDigitalTwinSimulator
 pip install -r requirements.txt
 ```
 
 ### Step 3: Running the Project
-1. Optimisation: Run python optimisation/batch_optimise.py to generate the dispatch schedules. The output will be saved in the generated_schedules/ folder.
+1. Optimisation: Run python optimisation/batch_optimise.py to generate the dispatch schedules. The output will be saved in the generated_schedules/ folder. Transfer this folder into the Assets/Streaming Assets folder in Tug-SP Unity.
 2. Simulation: Open the simulation folder (which contains the TugSP-Unity project) using Unity Hub (Version 2022.3+ recommended). Press "Play" in the editor to load the schedules and watch the digital twin execute the routes.
+3. Evaluation: The results of batch simulation will be saved as Final_Experiment_Results.csv in the Assets folder in Tug-SP Unity. Move this into the results folder and run normalise_results.py and visualise_results.py to generate the boxplot charts.
