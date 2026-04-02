@@ -1,3 +1,4 @@
 [submodule "simulation"]
 	path = simulation
 	url = https://github.com/ardentaegis17/TugSP-Unity.git
+	branch = main
