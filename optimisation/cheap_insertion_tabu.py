@@ -303,7 +303,8 @@ def run_tabu_search(print_result = False):
             tug_out = random.choice(current_tugs)
             tug_in = random.choice(available_tugs)
             
-            move_key = (job_id, tug_out) # when added to tabu list: don't assign the same job back to the tug we just removed
+            move_key = (job_id, tug_in) 
+            reverse_move = (job_id, tug_out) # when added to tabu list: don't assign the same job back to the tug we just removed
             
             new_assign = copy.deepcopy(current_assignment)
             new_assign[job_id].remove(tug_out)
@@ -312,6 +313,7 @@ def run_tabu_search(print_result = False):
             candidates.append({
                 'assign': new_assign,
                 'move': move_key,
+                'rev_move': reverse_move,
                 # Flag the move as Tabu, but DO NOT discard it yet
                 'is_tabu': move_key in tabu_list and tabu_list[move_key] > iteration
             })
@@ -337,7 +339,7 @@ def run_tabu_search(print_result = False):
             current_cost = best_candidate_cost
             
             # Place the newly accepted move onto the Tabu List
-            tabu_list[best_candidate['move']] = iteration + TABU_TENURE
+            tabu_list[best_candidate['rev_move']] = iteration + TABU_TENURE
             
             # Update the global best if necessary
             if current_cost < best_cost:
