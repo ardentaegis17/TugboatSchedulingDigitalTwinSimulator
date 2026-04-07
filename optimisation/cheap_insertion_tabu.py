@@ -303,7 +303,7 @@ def run_tabu_search(print_result = False):
             tug_out = random.choice(current_tugs)
             tug_in = random.choice(available_tugs)
             
-            move_key = (job_id, tug_in)
+            move_key = (job_id, tug_out) # when added to tabu list: don't assign the same job back to the tug we just removed
             
             new_assign = copy.deepcopy(current_assignment)
             new_assign[job_id].remove(tug_out)
