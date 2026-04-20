@@ -82,7 +82,8 @@ for s1_name, s2_name in comparisons:
     s2_data = df[df['Strategy'] == s2_name]
     
     for metric in metrics:
-        t_stat, p_val = stats.ttest_ind(s1_data[metric], s2_data[metric])
+        # change: use Welch's correction to account for unequal variances
+        t_stat, p_val = stats.ttest_ind(s1_data[metric], s2_data[metric], equal_var = False)
         results.append({
             'Comparison': f"{s1_name} vs {s2_name}",
             'Metric': metric,
